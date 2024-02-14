@@ -158,7 +158,7 @@ nav.navbar.bootsnav {
 .navbar-header a.navbar-brand:hover,
 .navbar-header a.navbar-brand:focus {
     display: inline-block;
-    color: #d92cf9;
+    color: #2788ff;
     font-size: 20px;
     font-weight: 600;
     padding: 33px 0px 57px;
@@ -186,7 +186,7 @@ nav.navbar.bootsnav ul.nav>li>a {
 nav.navbar.bootsnav ul.nav>li>a:hover,
 nav.navbar.bootsnav ul.nav>li>a:focus,
 nav.navbar.bootsnav ul.nav>li.active>a {
-    color: #d92cf9;
+    color: #2788ff;
 }
 
 nav.navbar.bootsnav ul.nav>li.dropdown>a.dropdown-toggle:after {
@@ -205,7 +205,7 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li>a:hover,
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li>a:focus,
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li.active>a {
-    color: #d92cf9;
+    color: #2788ff;
 }
 
 /*.nav li*/
@@ -227,7 +227,7 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
 }
 
 .menu-ui-design::-webkit-scrollbar-thumb {
-    background-color: #d92cf9;
+    background-color: #2788ff;
 }
 
 /*.menu-ui-design*/
@@ -238,13 +238,13 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
-    border: 1px solid #d92cf9;
+    border: 1px solid #2788ff;
     padding: 10px;
     top: 0;
 }
 
 nav.navbar.bootsnav .navbar-toggle i {
-    color: #d92cf9;
+    color: #2788ff;
 }
 
 /*.navbar-toggle */
@@ -285,7 +285,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .header-text h2 span {
-    color: #d92cf9;
+    color: #2788ff;
 }
 
 .header-text p {
@@ -304,8 +304,8 @@ nav.navbar.bootsnav .navbar-toggle i {
     border-radius: 3px;
     text-transform: capitalize;
     color: #fff;
-    background: #b636ff;
-    border: 1px solid #b636ff;
+    background: #2788ff;
+    border: 1px solid #2788ff;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
     -webkit-transition: 0.3s linear;
     -moz-transition: 0.3s linear;
@@ -316,8 +316,8 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .header-text a:hover {
     box-shadow: 0 5px 20px rgba(0, 0, 0, .4);
-    background: #9f00ff;
-    border: 1px solid #9f00ff;
+    background: #2788ff;
+    border: 1px solid #2788ff;
 }
 
 /*.header-text-area*/
@@ -371,6 +371,8 @@ nav.navbar.bootsnav .navbar-toggle i {
 .single-about-img {
     position: relative;
     box-shadow: 0 5px 20px rgba(14, 25, 80, .30);
+    width: 100%;
+    height: 100%;
 }
 
 .single-about-img:before {
@@ -378,14 +380,14 @@ nav.navbar.bootsnav .navbar-toggle i {
     content: " ";
     top: 0;
     left: 0;
-    width: 109%;
+    width: 100%;
     height: 100%;
     background: rgba(31, 44, 108, .3);
 }
 
 .single-about-img img {
-    max-width: 500px;
-    height: 500px;
+    max-width: 100%;
+    height: 100%;
 }
 
 .about-list-icon {
@@ -395,7 +397,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 109%;
+    width: 100%;
     height: 90px;
     background: #1f2c6c;
 }
@@ -476,7 +478,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .timeline-horizontal-border i {
     font-size: 10px;
-    color: #d92cf9;
+    color: #2788ff;
     margin-right: 5px;
 }
 
@@ -522,7 +524,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 
 .single-progress-txt h3 {
     width: 10%;
-    color: #a606c3;
+    color: #2788ff;
     position: relative;
     top: 6px;
     left: 20px;
@@ -545,7 +547,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 .progress-bar {
-    background: #b636ff;
+    background: #2788ff;
     border-radius: 3px;
     -webkit-transition: width 1.5s ease-in-out;
     -ms-transition: width 1.5s ease-in-out;
@@ -562,7 +564,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 .tooltip>.tooltip-inner {
     background-color: transparent;
     padding: 1px 5px;
-    color: #b636ff;
+    color: #2788ff;
     font-weight: 500;
     font-size: 12px;
     border-radius: 0;
@@ -634,7 +636,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 
 .timeline-content span>i,
 .experience-time span>i {
-    color: #d92cf9;
+    color: #2788ff;
     position: absolute;
     font-size: 10px;
     left: -14.5%;
@@ -740,11 +742,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     content: " ";
     width: 100%;
     height: 100%;
-    background: #d92cf9;
-    background: -moz-linear-gradient(left, #d92cf9 0%, #b636ff 100%);
-    background: -webkit-linear-gradient(left, #d92cf9 0%, #b636ff 100%);
-    background: linear-gradient(to right, #d92cf9 0%, #b636ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d92cf9', endColorstr='#b636ff', GradientType=1);
+    background: #2788ff;
+    background: -moz-linear-gradient(left, #2788ff 0%, #2788ff 100%);
+    background: -webkit-linear-gradient(left, #2788ff 0%, #2788ff 100%);
+    background: linear-gradient(to right, #2788ff 0%, #2788ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2788ff', endColorstr='#2788ff', GradientType=1);
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
     -ms-transform: scale(0);
@@ -847,8 +849,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 .isotope-overlay a {
     display: inline-block;
     color: #fff;
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
+    margin: 20px;
+    
 }
 
 .isotope .item:hover .isotope-overlay {
@@ -923,8 +927,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     height: 50px;
     text-transform: capitalize;
     margin-top: 3px;
-    background: #b636ff;
-    border: 1px solid #b636ff;
+    background: #2788ff;
+    border: 1px solid #2788ff;
     cursor: pointer;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
     -webkit-transition: .5s;
@@ -951,8 +955,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 .single-contact-btn:hover {
-    background: #9f00ff;
-    border: 1px solid #9f00ff;
+    background: #2788ff;
+    border: 1px solid #2788ff;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
 }
 
@@ -1014,7 +1018,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 .hm-foot-icon ul li>a:hover {
-    color: #b636ff;
+    color: #2788ff;
 }
 
 /*hm-foot-icon*/
@@ -1044,8 +1048,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background: #b636ff;
-    border: 1px solid #b636ff;
+    background: #2788ff;
+    border: 1px solid #2788ff;
     border-radius: 50%;
     -webkit-transition: .5s;
     -moz-transition: .5s;
@@ -1057,8 +1061,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 
 #scroll-Top .return-to-top:hover {
     background: #fff;
-    color: #b636ff;
-    border: 1px solid #b636ff;
+    color: #2788ff;
+    border: 1px solid #2788ff;
 }
 
 #scroll-Top .return-to-top i {
